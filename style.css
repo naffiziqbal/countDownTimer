@@ -1,0 +1,130 @@
+/* font-family: 'Roboto', sans-serif; */
+
+
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.bg{
+    background:url(./bg.jpg);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center center;
+    
+
+}
+
+.main{
+    position: absolute;;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+h1 {
+    font-size: 56px;
+    text-align: center;
+    margin-top: 5rem;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #c0b33c 1%, #f14040 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 20%;
+    left: 0;
+
+
+
+  }
+
+.timer{
+   
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+
+
+}
+.ct{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-right: 20px;
+    
+}
+.test{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-right:3rem;
+
+}
+.box{
+    background-color: rgba(255, 245, 238, 0.514);
+    height: 45rem;
+    width: 100rem;
+    border-radius: 10px; 
+
+}
+.div1{
+    background-color: rgb(46, 23, 23);
+    margin: 2px;
+    width: 25px;
+    height: 3px;
+    border-width: 10px;
+    position: relative;
+    top: -105%;
+    right: -1500%;
+    cursor: pointer;
+}
+
+#mail{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 14px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-35%,-50%);
+    outline: none;
+    padding: 20px;
+}
+
+.fa-paper-plane{
+    position: absolute;
+    top: 69%;
+    right: 40%; 
+   }
+    #days{
+        margin-left: -1rem;
+    }
+    .socialMedia{
+        position: relative;
+        top: 41%;
+        left: 48%;
+        display: flex;
+        justify-items: center;
+       
+
+    }
+    .facebook, .twitter, .git  {
+        margin: 20px;
+
+    }
+    .fa-facebook{
+        color: rgb(4, 154, 255);
+    }
+    .fa-github{
+        color: black;
+    }
+    .fa-twitter{
+        color: rgb(37, 168, 255);
+    }
+    
+
