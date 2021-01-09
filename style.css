@@ -96,7 +96,7 @@ h1 {
     padding: 20px;
 }
 
-.fa-paper-plane{
+.fa-envelope{
     position: absolute;
     top: 69%;
     right: 40%; 
@@ -128,3 +128,316 @@ h1 {
     }
     
 
+
+    @media screen and (max-width: 1450px) {
+        /* start of large tablet styles */
+            h1{
+                font-size: 50px;
+                text-align: center;
+                        }
+            .box{
+                margin-top: 13rem;
+                background-color: rgba(255, 245, 238, 0.514);
+                height:800px;
+                width:1000px ;
+                border-radius: 10px; 
+               }
+               #mail{
+                width: 350px;
+                height: 50px;
+                border: none;
+                border-radius: 14px;
+                position: absolute;
+                top: 70%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                outline: none;
+                padding: 20px;
+            }
+            .socialMedia{
+                position: relative;
+                top: 50%;
+                left: 40%;
+                display: flex;
+                justify-items: center;
+               
+        
+            }
+            .ct{
+                font-family: 'Roboto', sans-serif;
+                font-size: 50px;
+                font-weight: 600;
+                text-align: center;
+                
+            }
+            .test{
+                font-family: 'Roboto', sans-serif;
+                font-size: 30px;
+            
+            }
+            .timer{
+           
+                display: flex;
+                justify-content: center;
+                position: relative;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            
+            
+            }
+            .fa-envelope{
+                position: absolute;
+                right: 35%; 
+               }
+            }
+    
+    /* start of laptop styles */
+    @media screen and (max-width: 1140px) {
+        /* start of large tablet styles */
+            h1{
+                font-size: 50px;
+                text-align: center;
+                        }
+            .box{
+                margin-top: 13rem;
+                background-color: rgba(255, 245, 238, 0.514);
+                height:880px;
+                width:1000px ;
+                border-radius: 10px; 
+               }
+               #mail{
+                width: 350px;
+                height: 50px;
+                border: none;
+                border-radius: 14px;
+                position: absolute;
+                top: 70%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                outline: none;
+                padding: 20px;
+            }
+            .socialMedia{
+                position: relative;
+                top: 60%;
+                left: 40%;
+                display: flex;
+                justify-items: center;
+               
+        
+            }
+            .ct{
+                font-family: 'Roboto', sans-serif;
+                font-size: 50px;
+                font-weight: 600;
+                text-align: center;
+                
+            }
+            .test{
+                font-family: 'Roboto', sans-serif;
+                font-size: 30px;
+            
+            }
+            .timer{
+           
+                display: flex;
+                justify-content: center;
+                position: relative;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            
+            
+            }
+            .fa-envelope{
+                position: absolute;
+                right: 35%; 
+               }
+            }
+
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+        h1{
+            font-size: 50px;
+        }
+        .box{
+            margin-top: 10rem;
+            background-color: rgba(255, 245, 238, 0.514);
+            height:800px;
+            width:800px ;
+            border-radius: 10px; 
+           }
+           #mail{
+            width: 350px;
+            height: 50px;
+            border: none;
+            border-radius: 14px;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-35%,-50%);
+            outline: none;
+            padding: 20px;
+        }
+        .socialMedia{
+            position: relative;
+            top: 60%;
+            left: 50%;
+            display: flex;
+            justify-items: center;
+           
+    
+        }
+        .ct{
+            font-family: 'Roboto', sans-serif;
+            font-size: 38px;
+            font-weight: 600;
+            text-align: center;
+            
+        }
+        .test{
+            font-family: 'Roboto', sans-serif;
+            font-size: 23px;
+        
+        }
+        .timer{
+       
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 30%;
+            left: 62%;
+            transform: translate(-50%, -50%);
+        
+        
+        }
+        .fa-envelope{
+            position: absolute;
+            right: 25%; 
+           }
+        }
+
+    @media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    h1{
+        font-size: 40px;
+    }
+    .box{
+        background-color: rgba(255, 245, 238, 0.514);
+        height:700px;
+        width:600px ;
+        border-radius: 10px; 
+       }
+       #mail{
+        width: 350px;
+        height: 50px;
+        border: none;
+        border-radius: 14px;
+        position: absolute;
+        top: 70%;
+        left: 40%;
+        transform: translate(-35%,-30%);
+        outline: none;
+        padding: 20px;
+    }
+    .socialMedia{
+        position: relative;
+        top: 60%;
+        left: 38%;
+        display: flex;
+        justify-items: center;
+       
+
+    }
+    .ct{
+        font-family: 'Roboto', sans-serif;
+        font-size: 38px;
+        font-weight: 600;
+        position: relative;
+        left: 20%;
+        
+    }
+    .test{
+        font-family: 'Roboto', sans-serif;
+        font-size: 23px;
+    
+    }
+    .timer{
+   
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 30%;
+        left: 62%;
+        transform: translate(-50%, -50%);
+    
+    
+    }
+    .fa-envelope{
+        position: absolute;
+        top: 70%;
+        right: 25%; 
+       }
+    }
+    
+    @media screen and (max-width: 500px) {
+    /* start of phone styles */
+    h1{
+        font-size: 34px;
+    }
+    .box{
+        background-color: rgba(255, 245, 238, 0.514);
+        height:600px;
+        width:460px ;
+        border-radius: 10px; 
+       }
+       #mail{
+        width: 200px;
+        height: 50px;
+        border: none;
+        border-radius: 14px;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-35%,-30%);
+        outline: none;
+        padding: 20px;
+    }
+    .socialMedia{
+        position: relative;
+        top: 50%;
+        left: 30%;
+        display: flex;
+        justify-items: center;
+       
+
+    }
+    .ct{
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+        
+    }
+    .test{
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+    
+    }
+    .timer{
+   
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 30%;
+        left: 62%;
+        transform: translate(-50%, -50%);
+    
+    
+    }
+    .fa-envelope{
+        position: absolute;
+        top: 70%;
+        right: 25%; 
+       }
+    }
+    
