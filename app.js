@@ -5,10 +5,10 @@ const minsEl   = document.getElementById('mins');
 const secsEl  = document.getElementById('secs');
 
 
-let birthDay = '30 OCT 2003';
-let bDay = birthDay.getDay();
+let birthDay = '30 OCT 2021';
+
 function countDown(){
-    const birthDaydate = new Date(bDay);
+    const birthDaydate = new Date(birthDay);
     const currentDate = new Date();
     const totalSec = (birthDaydate - currentDate) / 1000;
     const days = Math.floor(totalSec / 3600 / 24);
