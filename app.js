@@ -5,7 +5,7 @@ const minsEl   = document.getElementById('mins');
 const secsEl  = document.getElementById('secs');
 
 
-let birthDay = '30 OCT 2021';
+let birthDay = '30 OCT 2022';
 
 function countDown(){
     const birthDaydate = new Date(birthDay);
